@@ -1,0 +1,107 @@
+body {
+    background-color: #adc9ff;
+    padding: 15px;
+    padding-top: 0px;
+    box-sizing: border-box;
+}
+    
+.label{
+    font-family: monospace;
+    font-size: 20px;
+    color: rgb(44, 43, 43);
+    font-weight: 400;
+    display: block;
+    margin: 0.5rem 0;
+
+}
+.textarea{
+    border-radius: 0.4rem;
+    color: #645e5e;  
+}
+header{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    
+}
+.bottompart{
+    background-color: white;
+    margin-left: 450px;
+    margin-right: 450px;
+    padding: 15px;
+    padding-top: 5px;
+    padding-left: 30px;
+    top: -7rem;
+    border-radius: 1.5rem;
+    box-shadow: 4px 3px 20px #3535358c;
+    border: dimgray;
+    border-width: 2px;
+    box-sizing: border-box;
+}
+.formpart{
+    margin-top: 25px;
+	border-bottom-right-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    /* padding: 2rem 2rem 4rem; */
+}
+.uppertext h1{
+    /* text-align: center; */
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: rgb(24, 136, 248);
+    font-family: monospace;
+    display: block;
+}
+.uppertext span{
+    /* text-align: center; */
+    font-family: sans-serif;
+    margin-top: 0px;
+    font-weight: 700;
+    font-size: smaller;
+}
+.inputbox{
+    width: 20rem;
+    padding: 0.5rem;
+    border: 2px solid #b9b6b6;
+    margin-bottom: 1rem;
+    border-radius: 0.3rem;
+    font-family: 'Roboto', sans-serif;
+    color: #615a5a;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.inputbox:hover{
+
+	transform: scale(1.02) translateY(-2px);
+    box-shadow: 3px 3px 6px #38373785;
+}
+.submitbtn
+{
+	width: 10rem;
+    height: 2rem;
+    font-size: 1.2rem;
+    color: white;
+    background: #3F51B5;
+    border: 0;
+    outline: 0;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.submitbtn:hover
+{
+	transform: scale(1.02) translateY(-2px);
+    box-shadow: 3px 3px 6px #38373785;
+}
+.contact{
+    margin-top: 25px;
+    text-align: center;
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif;
+    color: #645e5e;
+}
